@@ -1,0 +1,141 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tropa da Grota | Brasil Roleplay</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body {
+      background: linear-gradient(180deg, #0a0a0a, #000);
+      color: #fff;
+    }
+    header {
+      background: #8b0000;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 4px solid #ff0000;
+    }
+    header h1 { font-size: 3rem; }
+    header p { margin-top: 10px; font-size: 1.2rem; }
+
+    nav {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      border-bottom: 2px solid #ff0000;
+    }
+    nav a {
+      color: #ff0000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255,0,0,0.05);
+      border: 1px solid #ff0000;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #ff0000;
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    ul li { margin: 8px 0; }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #ff0000;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #ff0000;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+    .btn:hover { background: #cc0000; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TROPA DA GROTA</h1>
+    <p>Brasil Roleplay • Respeito • Disciplina • União</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#regras">Regras</a>
+    <a href="#hierarquia">Hierarquia</a>
+    <a href="#discord">Discord</a>
+  </nav>
+
+  <section id="sobre">
+    <div class="card">
+      <h2>📌 Sobre a Tropa</h2>
+      <p>A <strong>Tropa da Grota</strong> é uma organização fictícia criada para o universo <strong>Brasil Roleplay</strong>. Nosso foco é o RP sério, realista e organizado, sempre prezando pela diversão e respeito entre todos os players.</p>
+    </div>
+  </section>
+
+  <section id="regras">
+    <div class="card">
+      <h2>📜 Regras Gerais</h2>
+      <ul>
+        <li>❌ Proibido Anti-RP</li>
+        <li>❌ Proibido MetaGaming e PowerGaming</li>
+        <li>✅ Respeitar todos os membros e admins</li>
+        <li>✅ Seguir o padrão de RP Brasil</li>
+        <li>❌ Proibido abuso de bugs</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hierarquia">
+    <div class="card">
+      <h2>🎖️ Hierarquia</h2>
+      <ul>
+        <li>Líder Geral</li>
+        <li>Sub-Líder</li>
+        <li>Gerente</li>
+        <li>Soldado</li>
+        <li>Recruta</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="discord">
+    <div class="card">
+      <h2>💬 Discord da Grota</h2>
+      <p>Nosso Discord oficial é o principal meio de comunicação da <strong>Tropa da Grota</strong>. Lá você fica por dentro de avisos, regras, eventos e organização do RP.</p>
+      <p><strong>Entre no Discord e fortaleça a Grota!</strong></p>
+      <a href="https://discord.gg/zgdsZWeUK" target="_blank" class="btn">Entrar no Discord</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Tropa da Grota • Brasil Roleplay</p>
+  </footer>
+
+</body>
+</html>
